@@ -38,6 +38,7 @@ const routes = [
     },
     {
         path: '/edit-user/:id',
+        name: 'EditUser', // 添加路由名称
         component: EditUserPage,
         meta: { requiresAuth: true }
     },
